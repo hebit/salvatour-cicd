@@ -24,7 +24,7 @@ export default function Carousel(){
 
          getAllPlaces(token)
              .then((data) => {
-                console.log(data)
+                // console.log(data)
                 setListPlaces(data)
              })
              .catch((error) => {

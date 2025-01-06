@@ -48,7 +48,7 @@ export default function NewPlaces(){
         const file = event.target.files[0];
         if (file) {
           setImage(file)
-          };
+          }
     }
 
     function handleSubmit(event){

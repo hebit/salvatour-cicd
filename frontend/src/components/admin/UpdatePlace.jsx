@@ -54,7 +54,7 @@ export default function UpdatePlace(){
         if (file) {
           setImage(file)
           setImageToShow(URL.createObjectURL(file))
-          };
+          }
     }
 
     function handleSubmit(event){
